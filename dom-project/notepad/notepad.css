@@ -1,0 +1,91 @@
+body {
+    background-color: lightyellow;
+
+
+}
+
+.my_Body {
+    max-height: 500px;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+
+    margin-bottom: 40px;
+    overflow-y: auto;
+
+}
+
+.title {
+    background-color: black;
+    color: white;
+    height: 50px;
+    font-size: 25px;
+    margin-bottom: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-style: italic;
+    font-family: Cursive;
+
+}
+
+p {
+    display: inline-block;
+}
+
+.delete_Button {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.divider {
+    background-color: black;
+    height: 2px;
+    margin-top: 20px;
+}
+
+.input_place--div {
+    height: 150px;
+    text-align: center;
+    width: 100%;
+}
+
+.new_Record {
+    background-color: lightyellow;
+    min-width: 500px;
+    min-height: 30px;
+    margin-top: 60px;
+    border-radius: 5px;
+
+    display: inline-block;
+
+    font-size: 30px;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.new_Record--Button {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    height: 40px;
+    display: inline-block;
+    cursor: pointer;
+
+
+}
+
+.notes {
+    margin-bottom: 20px;
+    height: 50px;
+    font-size: 30px;
+
+}
